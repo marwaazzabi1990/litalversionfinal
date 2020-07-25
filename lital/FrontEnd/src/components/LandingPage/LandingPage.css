@@ -1,0 +1,102 @@
+.LandingPageAll {
+  background-image: url("http://latelierlital.com/sites/default/files/Untitled-3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.logo {
+  margin-left: 80px;
+  width: 200px;
+}
+.text {
+  margin-left: 30px;
+  color: white;
+  margin-top: 150px;
+  margin-right: 750px;
+  letter-spacing: 1px;
+}
+.p-everyone {
+  font-size: 19px;
+  margin-bottom: 35px;
+}
+.p-atelier {
+  font-size: 22px;
+  line-height: 1.2;
+}
+.social {
+  margin-top: 110px;
+  margin-left: 50px;
+  margin-right: 500px;
+}
+.social i {
+  font-size: 35px;
+  color: black;
+  margin-left: 25px;
+  cursor: pointer;
+}
+/* Modal CSS **/
+.logo-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.connecterModalBtn {
+  background-color: white !important;
+  color : black;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+.connecterModalBtn:hover{
+  color : black
+}
+.connecterModalBtn:focus{
+  background-color: #746255 !important;
+}
+.custom-modal-style {
+  width: 840px;
+  height: 480px;
+  margin-left: -240px;
+  margin-top: 40px;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+.btn-inside-modal {
+  background-color: black !important;
+  letter-spacing: 1px;
+  margin-top: 80px;
+  margin-left: 100px;
+}
+.btn-danger:not(:disabled):not(.disabled):active {
+  background-color: #746255 !important;
+}
+.btn-secondary:not([disabled]):not(.disabled):active {
+  background-color: rgba(8, 8, 8, 0.712) !important;
+}
+.img-inputs {
+  display: flex;
+}
+.input-modal {
+  margin: 30px 50px 10px 40px;
+}
+.input-modal-nom {
+  width: 350px;
+  margin-top: 30px;
+  padding: 10px;
+}
+.input-modal-MDP {
+  width: 350px;
+  margin-top: 25px;
+  padding: 10px;
+}
+.p-modal {
+  margin-top: 30px;
+  font-size: 24px;
+}
+.image-equipe {
+  width: 390px;
+}
